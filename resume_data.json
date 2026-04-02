@@ -1,0 +1,215 @@
+{
+  "header": {
+    "name": "ARSH MATHUR",
+    "rollNumber": "EP24B024",
+    "institute": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS",
+    "extra": "",
+    "linkedin": "https://www.linkedin.com/in/arsh-mathur-20b804224/",
+    "github": "https://github.com/rutherston18"
+  },
+  "education": [
+    {
+      "id": "ed1",
+      "program": "B.Tech in Engineering Phyiscs",
+      "institute": "Indian Institute of Technology, Madras",
+      "score": "9.25",
+      "year": "2026",
+      "enabled": true
+    },
+    {
+      "id": "ed3",
+      "program": "Class XII (CBSE)",
+      "institute": "St. Xavier's School, Nevta, Jaipur",
+      "score": "96.2%",
+      "year": "2024",
+      "enabled": true
+    },
+    {
+      "id": "d49e58e2",
+      "program": "Class X (CBSE)",
+      "institute": "St. Xavier's School, Nevta, Jaipur",
+      "score": "97.2%",
+      "year": "2022",
+      "enabled": true
+    }
+  ],
+  "educationBullets": [
+    {
+      "id": "54bcb332",
+      "text": "**Relevant Coursework** : Machine Learning Techniques, Signals and Systems",
+      "enabled": true
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub1",
+      "text": "Lorem ipsum **dolor** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
+      "enabled": false
+    },
+    {
+      "id": "pub2",
+      "text": "Lorem ipsum **dolor** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
+      "enabled": false
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conf1",
+      "name": "Global Summit",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy",
+      "enabled": false
+    },
+    {
+      "id": "conf2",
+      "name": "SW, Economist, USA",
+      "description": "Duis autem vel eum iriure dolor in hendrerit in vulputate velit.",
+      "enabled": false
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp1",
+      "company": "MyLifeinLines",
+      "role": "Technical Intern",
+      "period": "February'26 - Present",
+      "headline": "",
+      "bullets": [],
+      "enabled": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Project Viveka",
+      "tech": "Python, TensorFlow",
+      "period": "",
+      "headline": "Brief project description here",
+      "bullets": [
+        {
+          "id": "proj1b1",
+          "text": "Key contribution or result with **bold** emphasis on important metrics"
+        },
+        {
+          "id": "proj1b2",
+          "text": "Another achievement or technical detail about the project"
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "1f8b031b",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "649ea881",
+          "text": ""
+        }
+      ],
+      "title": "ISRO GeoNLI",
+      "tech": "Inter-IIT Tech Meet 14.0",
+      "period": "",
+      "headline": ""
+    },
+    {
+      "id": "4534b642",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "4d407110",
+          "text": ""
+        }
+      ],
+      "title": "Automailer",
+      "tech": "Corporate Relations",
+      "period": "",
+      "headline": ""
+    },
+    {
+      "id": "c525eeb5",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "1d209076",
+          "text": ""
+        }
+      ],
+      "title": "Image Captioning",
+      "tech": "",
+      "period": "",
+      "headline": ""
+    }
+  ],
+  "positions": [
+    {
+      "id": "493404f5",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "b73e7839",
+          "text": ""
+        }
+      ],
+      "title": "Hackathon Lead",
+      "role": "AI Guild, IIT Madras",
+      "period": ""
+    },
+    {
+      "id": "02e0b1d1",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "d48d37c0",
+          "text": ""
+        }
+      ],
+      "title": "Coordinator",
+      "role": "AI Club, IIT Madras",
+      "period": ""
+    },
+    {
+      "id": "d0422ad9",
+      "enabled": true,
+      "bullets": [
+        {
+          "id": "44c2b280",
+          "text": ""
+        }
+      ],
+      "title": "Manager",
+      "role": "Corporate Relations, E-Cell, IIT Madras",
+      "period": ""
+    }
+  ],
+  "extracurriculars": [
+    {
+      "id": "ec2",
+      "title": "Winner ",
+      "subtitle": "Guesstimate Premier Leage '25",
+      "bullets": [],
+      "enabled": true
+    },
+    {
+      "id": "ec3",
+      "title": "Comedy Contingent",
+      "subtitle": "Sangarm, IIT Madras",
+      "bullets": [],
+      "enabled": true
+    }
+  ],
+  "miscellaneous": [],
+  "skills": {
+    "advanced": "Python,GitHub, Huggingface, PyTorch, Tensorflow, Canva, LaTeX",
+    "intermediate": "C++, Deepspeed, Bash, Kaggle, Apollo, MS Excel",
+    "basic": ""
+  },
+  "sectionToggles": {
+    "education": true,
+    "publications": false,
+    "experience": true,
+    "projects": true,
+    "positions": true,
+    "extracurriculars": true,
+    "miscellaneous": true,
+    "skills": true
+  }
+}
