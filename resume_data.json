@@ -9,7 +9,7 @@
   },
   "education": [
     {
-      "id": "ed1",
+      "id": "d49e58e2",
       "program": "B.Tech in Engineering Phyiscs",
       "institute": "Indian Institute of Technology, Madras",
       "score": "9.25",
@@ -25,7 +25,7 @@
       "enabled": true
     },
     {
-      "id": "d49e58e2",
+      "id": "ed1",
       "program": "Class X (CBSE)",
       "institute": "St. Xavier's School, Nevta, Jaipur",
       "score": "97.2%",
@@ -35,21 +35,31 @@
   ],
   "educationBullets": [
     {
+      "id": "9d3244f1",
+      "text": "**Relevant Coursework** : Machine Learning Techniques, Signals and Systems, Digital Systems, Computational Physicss",
+      "enabled": true
+    },
+    {
       "id": "54bcb332",
-      "text": "**Relevant Coursework** : Machine Learning Techniques, Signals and Systems",
+      "text": "Relevant Labwork : Digital Systems Lab, Analog Systems Lab",
+      "enabled": false
+    },
+    {
+      "id": "d8fd89ff",
+      "text": "Achieved rank **1807** among 2L+ candidates in JEE Advance 2024",
       "enabled": true
     }
   ],
   "publications": [
     {
-      "id": "pub1",
-      "text": "Lorem ipsum **dolor** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-      "enabled": false
+      "id": "pub2",
+      "text": "Lorem ipsum **doloras.d,mas,d** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
+      "enabled": true
     },
     {
-      "id": "pub2",
-      "text": "Lorem ipsum **dolor** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
-      "enabled": false
+      "id": "pub1",
+      "text": "Lorem ipsum **doloras.d,mas,d** sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut",
+      "enabled": true
     }
   ],
   "conferences": [
@@ -72,8 +82,17 @@
       "company": "MyLifeinLines",
       "role": "Technical Intern",
       "period": "February'26 - Present",
-      "headline": "",
-      "bullets": [],
+      "headline": "Developing an end-to-end computer vision + natual language processing pipeline for Palmistry. ",
+      "bullets": [
+        {
+          "id": "6fed3470",
+          "text": "Engineered a custom data annotation pipeline to process over **10,000** image samples with **10+ multi-class** labels."
+        },
+        {
+          "id": "a9d076b2",
+          "text": "Fine-tuned **SAM3 via LoRA** on 10,000+ samples, achieving **90%+ accuracy** in detecting and segmenting four primary hand-line classes."
+        }
+      ],
       "enabled": true
     }
   ],
@@ -81,17 +100,21 @@
     {
       "id": "proj1",
       "title": "Project Viveka",
-      "tech": "Python, TensorFlow",
-      "period": "",
-      "headline": "Brief project description here",
+      "tech": "AI Club, IIT Madras",
+      "period": "Jun'25 - Present",
+      "headline": "Leveraged Mechanistic Interpretability techniques to detect, understand, and mitigate hallucinations in LLMs.",
       "bullets": [
         {
           "id": "proj1b1",
-          "text": "Key contribution or result with **bold** emphasis on important metrics"
+          "text": "Worked across multiple model families **(Gemma, Qwen, Llama)**, running exhaustive experiments to identify internal representations of factual correctness."
         },
         {
-          "id": "proj1b2",
-          "text": "Another achievement or technical detail about the project"
+          "id": "2812bd30",
+          "text": "Engineered a **5 stage pipeline** to collect model internal activations and run experiments for over **20,000 sample questions** per model. "
+        },
+        {
+          "id": "eb23c668",
+          "text": "Collaborated effectively in a team of 11, contributing to research planning, execution, and peer review."
         }
       ],
       "enabled": true
@@ -102,13 +125,21 @@
       "bullets": [
         {
           "id": "649ea881",
-          "text": ""
+          "text": "LoRA fine-tuned LISA (Language-Instructed Segmentation Assistant) on **3** curated remote-sensing datasets with over **100k samples** using segmentation masks and referring expressions to improve grounded visual understanding. "
+        },
+        {
+          "id": "52c0790d",
+          "text": "Led data curation and synthetic data generation pipelines for fine-tuning **Qwen-based VLMs**, enabling better alignment between language queries and geo-spatial visual features."
+        },
+        {
+          "id": "ebdfcb36",
+          "text": " Presented the end-to-end solution at IIT Patna to a judging panel comprising ISRO scientists, defending modeling choices and empirical results."
         }
       ],
       "title": "ISRO GeoNLI",
       "tech": "Inter-IIT Tech Meet 14.0",
-      "period": "",
-      "headline": ""
+      "period": "Oct'25 - Dec'25",
+      "headline": "Natural Language Interpretation of Satellite Imagery."
     },
     {
       "id": "4534b642",
@@ -116,17 +147,21 @@
       "bullets": [
         {
           "id": "4d407110",
-          "text": ""
+          "text": "Developed a **centralized relational database** to manage corporate leads and points of contact, ensuring data integrity across high-volume sponsorship campaigns."
+        },
+        {
+          "id": "57a1c74f",
+          "text": "Automated the end-to-end outreach pipeline for a **22-member sponsorship team**, significantly reducing manual data entry through **GCP API** integrations."
         }
       ],
       "title": "Automailer",
       "tech": "Corporate Relations",
-      "period": "",
-      "headline": ""
+      "period": "Jun'25 - Aug'25",
+      "headline": "Cloud Integrations & Outreach Automation Project"
     },
     {
       "id": "c525eeb5",
-      "enabled": true,
+      "enabled": false,
       "bullets": [
         {
           "id": "1d209076",
@@ -134,9 +169,9 @@
         }
       ],
       "title": "Image Captioning",
-      "tech": "",
-      "period": "",
-      "headline": ""
+      "tech": "AI Club, IIT Madras",
+      "period": "Dec'24 - Mar'25",
+      "headline": "Captioning Images"
     }
   ],
   "positions": [
@@ -146,12 +181,20 @@
       "bullets": [
         {
           "id": "b73e7839",
-          "text": ""
+          "text": "Spearheading the **100+ member AI & Software Guild** at IIT Madras, directing technical training, project roadmaps and internal quality management to secure a podium finish at **Inter IIT Tech 15.0.**"
+        },
+        {
+          "id": "aa386318",
+          "text": "Collaborated with industry leaders including **Databricks, Jane Street, and Mindshift Analytics** to architect impactful hackathons and oversee end-to-end on-ground execution."
+        },
+        {
+          "id": "daa7ab91",
+          "text": "Directed the guild’s operational budget to architect a **dedicated GPU cluster*8, manage **enterprise software subscriptions**, and fully **fund competitive contingents for outstation national-level competitions.**"
         }
       ],
       "title": "Hackathon Lead",
-      "role": "AI Guild, IIT Madras",
-      "period": ""
+      "role": "AI Club, IIT Madras",
+      "period": "March'26 - Present"
     },
     {
       "id": "02e0b1d1",
@@ -159,12 +202,20 @@
       "bullets": [
         {
           "id": "d48d37c0",
-          "text": ""
+          "text": "Delivered sessions on advanced topics including **Mamba, State Space Models, and Vision Transformers** to the general student body."
+        },
+        {
+          "id": "c6bcb18f",
+          "text": "Led recruitment of Deputy Coordinators through a structured application and interview process."
+        },
+        {
+          "id": "255fda93",
+          "text": "Supervised Deputy Coordinator **mini-projects on speech diarization** in collaboration with co-coordinator."
         }
       ],
       "title": "Coordinator",
       "role": "AI Club, IIT Madras",
-      "period": ""
+      "period": "Jun'25 - Present"
     },
     {
       "id": "d0422ad9",
@@ -172,33 +223,106 @@
       "bullets": [
         {
           "id": "44c2b280",
-          "text": ""
+          "text": "Worked within a **22 member team** to drive sponsorships and partnerships for E-Summit 2026."
+        },
+        {
+          "id": "55a2e217",
+          "text": "Closed deals worth **₹10L+** with **venture capital firms, banks, and corporates**, managing end-to-end deliverable execution."
         }
       ],
       "title": "Manager",
       "role": "Corporate Relations, E-Cell, IIT Madras",
+      "period": "May'25 - Mar'26"
+    },
+    {
+      "id": "47442182",
+      "enabled": false,
+      "bullets": [
+        {
+          "id": "a2322fd3",
+          "text": ""
+        }
+      ],
+      "title": "AM",
+      "role": "CR",
+      "period": ""
+    },
+    {
+      "id": "afe3c0db",
+      "enabled": false,
+      "bullets": [
+        {
+          "id": "9a17d28d",
+          "text": ""
+        }
+      ],
+      "title": "DC",
+      "role": "AI Club",
       "period": ""
     }
   ],
   "extracurriculars": [
     {
-      "id": "ec2",
+      "id": "ec3",
       "title": "Winner ",
-      "subtitle": "Guesstimate Premier Leage '25",
-      "bullets": [],
+      "subtitle": "Guesstimate Premier League '25",
+      "bullets": [
+        {
+          "id": "37a4fd32",
+          "text": "Solved **10+ complex guesstimate** cases in under 60 minutes, securing a top-tier qualification among a pool of **200+ competing teams.**"
+        },
+        {
+          "id": "01423588",
+          "text": "Advanced to the finals after winning a high-stakes, **head-to-head live guesstimate round** against top-seeded opponents."
+        },
+        {
+          "id": "b8c70069",
+          "text": "Developed and delivered a comprehensive strategic deck within a **24-hour turnaround**, presenting the final solution to a formal panel of  judges."
+        }
+      ],
       "enabled": true
     },
     {
-      "id": "ec3",
+      "id": "ec2",
       "title": "Comedy Contingent",
       "subtitle": "Sangarm, IIT Madras",
-      "bullets": [],
+      "bullets": [
+        {
+          "id": "34334168",
+          "text": "Represented the college comedy contingent at inter-collegiate festivals, including **NIT Trichy**, participating in multiple competitive rounds."
+        },
+        {
+          "id": "a6159330",
+          "text": "Performed original stand-up comedy sets for an audience of **1000+ students** and faculty during Freshie Nite"
+        }
+      ],
       "enabled": true
     }
   ],
-  "miscellaneous": [],
+  "miscellaneous": [
+    {
+      "id": "0cd3277e",
+      "text": "Selected as one of the top 50 teams nationwide among 8,000+ participants in **Swiggy Food for Thought Challenge** to propose disruptive growth levers in the student ecosystem.",
+      "enabled": true
+    },
+    {
+      "id": "d8db1a4a",
+      "text": "Competed in various national-level hackathons hosted by **ISRO, Adobe, Appian etc.**, developing rapid prototypes under tight deadlines.",
+      "enabled": true
+    },
+    {
+      "id": "4ce377a3",
+      "text": "Managed international artist relations and logistics as a volunteer for Saarang Professional Shows, while serving as the **primary emcee for Rock Night** before a **live audience of 8,000+.**",
+      "enabled": true
+    },
+    {
+      "id": "3c0d9c44",
+      "text": "excelsior? why not",
+      "enabled": false
+    }
+  ],
   "skills": {
-    "advanced": "Python,GitHub, Huggingface, PyTorch, Tensorflow, Canva, LaTeX",
+    "advanced": "Python, GitHub, Huggingface, PyTorch, Tensorflow, Canva, LaTeX",
     "intermediate": "C++, Deepspeed, Bash, Kaggle, Apollo, MS Excel",
     "basic": ""
   },
@@ -211,5 +335,16 @@
     "extracurriculars": true,
     "miscellaneous": true,
     "skills": true
-  }
+  },
+  "sectionOrder": [
+    "education",
+    "publications",
+    "experience",
+    "projects",
+    "positions",
+    "extracurriculars",
+    "miscellaneous",
+    "skills"
+  ],
+  "customSections": []
 }
